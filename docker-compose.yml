@@ -18,6 +18,8 @@ services:
     volumes:
       - redis-data:/data
       - redis-conf:/etc/redis
+    ports:
+      - 6379:6379
 
   redis-1:
     build: ./redis
