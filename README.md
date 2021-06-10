@@ -1,1 +1,1 @@
-# redis-bitname-cluster-stack
+# redis-cluster-stack
